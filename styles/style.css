@@ -1,0 +1,97 @@
+/*===========================================================================*/
+/*========================= \/\/\/ GENERAL \/\/\/ ===========================*/
+/*===========================================================================*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Merriweather";
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+/*====================================================================*/
+/*====================== \/\/\/ MENUBAR \/\/\/========================*/
+/*====================================================================*/
+.menubar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+
+.navigation_tabs {
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 600px;
+    background-color: lightblue;
+}
+
+.navigation_tabs a {
+    color: black;
+    display: flex;
+    transition: 0.3s;
+}
+
+.navigation_tabs a:hover {
+    color: rgb(232, 232, 232);
+}
+
+/*=====================================================================*/
+/*======================= \/\/\/ BODY \/\/\/ ==========================*/
+/*=====================================================================*/
+#home,
+#who_we_are,
+#what_we_do,
+#projects,
+#contact {
+    height: 91.2vh;
+    font-family: "Merriweather";
+    font-weight: 900;
+}
+/*============== ^^^ Section Height ^^^ ==============*/
+
+#home {
+    background-color: lightblue;
+    background-image: url("img/homepage3.jpg");
+    background-position: 0% 45%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#who_we_are {
+    background-color: lightpink;
+}
+
+#what_we_do {
+    background-color: lightblue;
+}
+
+#projects {
+    background-color: lightpink;
+}
+
+#contact {
+    background-color: lightblue;
+}
+
+body {
+    padding-top: 70px;
+}
+
+@media (max-width: 500px) {
+
+}
